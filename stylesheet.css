@@ -56,17 +56,16 @@
   #element {
     color: rgb(176, 87, 176);
   }
-  .secondsection {
-    max-width: 80vw;
+  .secondsection.About Me {
+    max-width: 70vw;
     margin-left: 250px;
-    height: 100vh;
-    font-size: 2.1rem;
-
+    height: 80vh;
+    font-size: 4rem;
   }
-  
+
   .secondsection ul  li {
     list-style: upper-alpha;
-    margin: 60px;
+    margin: 20px 0;
     font-size: 3rem;
     color: white;
   }
