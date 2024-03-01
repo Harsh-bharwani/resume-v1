@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width"
+    initial-scale="1.0" />
     <title>Harsh-Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,12 +16,12 @@
   <body>
     <header>
       <nav>
-        <div class="left">Harsh Bharwani's Portfolio</div>
+        <div class="left" >Harsh Bharwani's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Home</a></li>
+            <li><a href="#About Me">About</a></li>
+            <li><a href="#Work Experience">Work Experience</a></li>
+            <li><a href="#firstsection">Home</a></li>
             <li><a href="/">Projects</a></li>
             <li><a href="/">Contact Me</a></li>
           </ul>
@@ -29,7 +30,7 @@
     </header>
 
     <main>
-      <section class="firstsection">
+      <section class="firstsection" id="firstsection">
         <div class="leftsection">
           Hi,myself <span class="purple">Harsh </span>
           <div>and I am an enthusiastic</div>
@@ -39,21 +40,34 @@
           <img padding="23px 0" width="80%" src="final.png" alt="" />
         </div>
       </section>
-      <hr />
+      <hr>
+
       <section class="secondsection">
+        <span class="text-gray">Wanna to know more</span>
+        <h1 id="About Me">About Me</h1>
+        <ul>
+          <li>A person who believes in competing with only
+            himself.</li>
+          <li>Love to interact with different kinds of people.</li>
+          <li>Always keen to learn new learnings from my life
+            experiences.</li>
+          </ul>
+      </section>
+      <hr>
+      <section class="thirdsection">
         <span class="text-gray">What I have done so far</span>
-        <h1>Work Experience</h1>
+        <h1 id="Work Experience">Work Experience</h1>
         <div class="box">
-          <div class="vertical">
-            <img class="image-top" src="yt.png" alt="h" />
-            <div class="vertical-title">Content Creator (since april 2023)</div>
+          <div class="vertical" >
+            <a href="https://youtube.com/@Harsh_Bharwani?si=FTxWJDWKdb2MpC2Z"><img class="image-top" src="yt.png" alt="h" /></a>
+            <div class="vertical-title" position="relative">Content Creator (since april 2023)</div>
             <div class="vertical-desc">
               I used to make youtube videos around three nisches-information,
               life_vlogs & dance.
             </div>
           </div>
           <div class="vertical">
-            <img class="image-top" src="webdev.png" alt="h" />
+            <a href="https://harshbharwani.vercel.app/"><img class="image-top" src="webdev.png" alt="h" /></a>
             <div class="vertical-title">Web Dev. (since jan 2024)</div>
             <div class="vertical-desc">
               I have build my own Portfolio website from scratch by using this
@@ -71,7 +85,7 @@
             </div>
           </div>
           <div class="vertical">
-            <img class="image-top" src="video-editing.png" alt="h" />
+            <a href="https://youtu.be/Vges3GIMWRM?si=WgtBLDEEXG4p6UdH"><img class="image-top" src="video-editing.png" alt="h" /></a>
             <div class="vertical-title">Video Editing (since april 2023)</div>
             <div class="vertical-desc">
               This skill is the child of my content creation skill, I used to
@@ -80,6 +94,9 @@
             </div>
           </div>
         </div>
+      </section>
+
+
       </section>
     </main>
     <footer>
